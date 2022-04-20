@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="description" content="首页">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<bgsound src="beijingyinyue.wav" loop="-1">
+<title>首页</title>
+</head>
+
+<body background="images/beijing.jpg" onload="FP_preloadImgs(/*url*/'images/buttonE.jpg',/*url*/'images/buttonF.jpg',/*url*/'images/button11.jpg',/*url*/'images/button12.jpg',/*url*/'images/button14.jpg',/*url*/'images/button15.jpg',/*url*/'images/button17.jpg',/*url*/'images/button18.jpg')">
+
+<p align="center">
+<!--webbot bot="ImageMap" text=" (62,0) (612, 90) {我的世界} {楷体} 55 B #00ff00 RT 0  " border="0" src="images/标题.gif" width="670" height="306" u-originalsrc="images/标题.gif" u-overlaysrc="_overlay/index.htm_txt_标题.gif" startspan --><img border="0" src="_derived/index.htm_txt_标题.gif" width="670" height="306"><!--webbot bot="ImageMap" endspan i-checksum="27485" -->&nbsp;</p>
+
+<p align="center"><b>
+<marquee direction="right" scrollamount="10">让我们来尽情创造吧！</marquee></b></p>
+<p align="center">
+<img border="0" id="img2" src="images/button10.jpg" height="20" width="100" alt="世界资源" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/button11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/button10.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/button12.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/button11.jpg')" fp-style="fp-btn: Embossed Rectangle 8; fp-font: SimSun-ExtB" fp-title="世界资源">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="shiping.htm"> 
+<img border="0" id="img3" src="images/button13.jpg" height="20" width="100" alt="趣味视频" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'images/button14.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'images/button13.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'images/button15.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'images/button14.jpg')" fp-style="fp-btn: Embossed Rectangle 8; fp-font: SimSun-ExtB" fp-title="趣味视频"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img border="0" id="img4" src="images/button16.jpg" height="20" width="100" alt="世界攻略" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'images/button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'images/button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'images/button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'images/button17.jpg')" fp-style="fp-btn: Embossed Rectangle 8; fp-font: SimSun-ExtB" fp-title="世界攻略">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<a href="jieshao.htm"><img border="0" id="img1" src="images/buttonD.jpg" height="20" width="100" alt="详细介绍" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/buttonE.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/buttonD.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/buttonF.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/buttonE.jpg')" fp-style="fp-btn: Embossed Rectangle 8; fp-font: SimSun-ExtB" fp-title="详细介绍"></a></p>
+<p align="center"><b>《我的世界》是一款风靡全球的高自由度沙盒游戏，由瑞典Mojang AB和4J 
+Studios开发，于2009年5月13日发行。2014年11月6日，该游戏被微软收购。2016年网易取得了该游戏在中国的代理权。</b></p>
+<p align="center">
+<img border="0" src="images/timgQ7242CT4.jpg" width="520" height="293" align="left"></p>
+<p align="center"><font face="隶书" size="5"><b>该作以每一个玩家在三维空间中自由地创造和破坏不同种类的方块为主题。玩家在游戏中可以在单人或多人模式中通过摧毁或创造方块以创造精妙绝伦的建筑物和艺术，或者收集物品探索地图以完成游戏的主线。</b></font></p>
+
+</body>
+
+</html>
